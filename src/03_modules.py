@@ -22,10 +22,14 @@ import os
 # See the docs for the OS module: https://docs.python.org/3.7/library/os.html
 
 # Print the current process ID
+print(os.getpid())
 # YOUR CODE HERE
-
+print(os.getcwd())
 # Print the current working directory (cwd):
 # YOUR CODE HERE
 
 # Print out your machine's login name
 # YOUR CODE HERE
+
+
+print(os.getuid())
