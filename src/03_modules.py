@@ -1,3 +1,4 @@
+import getpass
 """
 In this exercise, you'll be playing around with the sys module,
 which allows you to access many system specific variables and
@@ -32,4 +33,6 @@ print(os.getcwd())
 # YOUR CODE HERE
 
 
-print(os.getuid())
+print(getpass.getuser())
+#
+# print(os.getuid())
